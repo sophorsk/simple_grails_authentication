@@ -1,0 +1,313 @@
+
+/*************************** html and body *****************************/
+
+html {
+    max-height: 200px;
+}
+
+body {
+    font-size: 75%;
+    font-style: normal;
+    font-weight: normal;
+    padding: 0;
+    background-color: #f6f5f1;
+    line-height:160%;
+}
+
+a{
+    color:#990000;
+}
+
+p{
+    padding:5px 0 5px 0;
+    margin:0px;
+    font-size: 1.1em;
+    text-align:justify;
+    line-height:19px;
+}
+
+/************************************** Header div **********************************/
+
+#wrap{
+    width:1000px;
+    height: auto;
+    margin:0 auto;
+    background-color: #FFFFFF;
+}
+
+#wrap .header{
+    width:100%;
+    height:250px;
+    background:url(../images/site/header1.jpg) no-repeat center;
+}
+
+#login {
+    font-size: 1.5em;
+    color: #000000;
+}
+
+.logo{
+    height: 50%;
+    width: 50%;
+    padding:0 0 0 10px;
+    max-width: 200px;
+}
+
+.search {
+    float: right;
+    width: 20%;
+    padding: 20px 0 0 10px;
+}
+
+/************************************ menu *********************************/
+#menu{
+    width:700px;
+    height:41px;
+    margin:70px 0 0 26px;
+}
+#menu ul{
+    display:block;
+    list-style:none;
+    padding:9px 0 0 10px;
+    margin:0px;
+}
+#menu ul li{
+    display:inline;
+    padding:0px;
+    margin:0px;
+    height:27px;
+}
+#menu ul li a{
+    height:27px;
+    display:block;
+    padding:0px 10px 0 10px;
+    margin:0 4px 0 4px;
+    float:left;
+    text-decoration:none;
+    text-align:center;
+    color:#fff;
+    font-weight: bold;
+    font-size:1em;
+    line-height:27px;
+}
+
+#menu ul li.selected a{
+    height:27px;
+    display:block;
+    padding:0px 10px 0 10px;
+    margin:0 5px 0 5px;
+    float:left;
+    text-decoration: none;
+    font-weight: bold;
+    text-align:center;
+    color:#fff;
+    font-size:1em;
+    line-height:27px;
+    background:url(../images/site/menu_bt_bg.gif) repeat-x center;
+}
+
+#menu ul li a:hover{
+    background:url(../images/site/menu_bt_bg.gif) repeat-x center;
+}
+
+
+/************************************** Content *************************************/
+
+div #into {
+    width: 1000px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+div .left{
+    float: left;
+    width: 55%;
+    padding: 20px;
+
+}
+
+div .right{
+    float: right;
+    width: 35%;
+    padding: 20px;
+}
+
+div .left #welcome {
+    font-size: 2em;
+    color: #3B5998;
+    font-family: Trebuchet, Arial, Helvetica, sans-serif;
+}
+
+div .left #welcome .signature{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+div .right #about {
+    font-size: 2em;
+    color: #3B5998;
+    font-family: Trebuchet, Arial, Helvetica, sans-serif;
+}
+
+div .right .mypic {
+    float: right;
+    margin: 4px;
+}
+
+/******************************** middle content ********************************/
+
+div #middle {
+    width: 1000px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+div #mission{
+    float: left;
+    width: 60%;
+}
+
+div #mission h3 {
+    font-size: 2em;
+    color: #3B5998;
+    font-family: Trebuchet, Arial, Helvetica, sans-serif;
+}
+
+div #useful_links h3 {
+    font-size: 2em;
+    color: #3B5998;
+    font-family: Trebuchet, Arial, Helvetica, sans-serif;
+}
+
+div #useful_links{
+    float: right;
+    padding-left: 10px;
+    width: 30;
+}
+
+#useful_links .links{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#useful_links .links a{
+    text-decoration: none;
+}
+
+#middle #mission strong{
+    font-size: 1.5em;
+    font-family: Trebuchet, Arial, Helvetica, sans-serif;
+}
+
+/***************************************** border between each content *******************/
+#wrap .borderThick
+{
+    clear: both;
+    margin: 46px 0 0 0;
+    height: 6px;
+    background-color: #807873;
+}
+
+#wrap .borderThin
+{
+    clear: both;
+    margin: 46px 0 0 0;
+    height: 1px;
+    background-color: #807873;
+}
+
+
+/*********************************** Gallery ************************************/
+
+#wrap .gallery {
+    clear: both;
+    margin: 26px 0 0 0;
+    text-align: left;
+}
+
+#wrap .gallery h1 {
+    margin: 0;
+    padding: 0;
+    font: normal 2em Trebuchet, Arial, Helvetica, sans-serif;
+    color: #3B5998;
+    font-style: italic;
+}
+
+#wrap .gallery ul {
+    list-style: none;
+}
+
+#wrap .gallery .images {
+    padding: 25px 0 0 0;
+}
+
+#wrap .gallery .title {
+    padding: 25px 0 0 0;
+}
+
+#wrap .gallery .title a,
+#wrap .gallery .title a:link,
+#wrap .gallery .title a:active,
+#wrap .gallery .title a:visited {
+    font-style: normal;
+    color: #e97004;
+    text-decoration: none;
+}
+
+#wrap .gallery .title a:hover {
+    text-decoration: underline;
+}
+
+#wrap .gallery .description {
+    padding: 12px 0 0 0;
+    font-size: 1em;
+}
+
+#wrap .gallery li {
+    margin: 0 16px 0 0;
+    width: 300px;
+    float: left;
+    font: normal 0.75em Trebuchet, Arial, Helvetica, sans-serif;
+    color: #373431;
+    font-style: italic;
+}
+
+#wrap .gallery .end {
+    margin: 0;
+    width: 300px;
+    float: left;
+}
+
+.title li a{
+    font-size: 14px;
+    font-family: Trebuchet, Arial, Helvetica, sans-serif;
+}
+
+/********************************* contact *********************************/
+
+#contact{
+    background-color: #f6f5f1;
+}
+
+#footer{
+    background-color: #f6f5f1;
+}
+
+div .borderThin_contact
+{
+    clear: both;
+    margin: 46px 0 0 0;
+    height: 1px;
+    background-color: #f6f5f1;
+}
+
+/********************************** footer *********************************/
+
+div #footer {
+    clear: both;
+    margin: 20px 0 20px 0;
+    text-align: left;
+    font: normal 1em Trebuchet, Arial, Helvetica, sans-serif;
+    color: #807873;
+}
+
